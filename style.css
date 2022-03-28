@@ -1,8 +1,113 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 62.5%
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu__logo {
+    font-size: 2.6rem;
+    flex: 3 1 40rem;
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 400;
+}
+
+p,
+input,
+label,
+li,
+button {
+    font-size: 2rem;
+}
+
+.menu__list {
+    font-size: 2rem;
+}
+
+.hero__heading {
+    font-size: 4.8rem;
+}
+
+.hero__subheading {
+    font-size: 3rem;
+    padding: 3rem;
+    font-weight: normal;
+}
+
+h4,
+h5 {
+    font-size: 2.8rem;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.menu {
+    color: #fff;
+    background-color: #131c27;
+
+}
+
+.menu__navigation {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    min-height: 10vh;
+    padding: 2rem;
+    margin: auto;
+    align-items: center;
+}
+
+.menu__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 40rem;
+    list-style: none;
+}
+
+.hero {
+    min-height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), transparent), url("/Travelly/img/landing-page.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero__contactBtn {
+    padding: 2rem 6rem;
+    background: #4c6e97;
+    color: #fff;
+    border: none;
+    font-size: 1.8;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 932px) {
+    html {
+        font-size: 45%;
+    }
+
+    .menu__navigation {
+        text-align: center;
+    }
+
+    .menu__logo {
+        padding: 2rem;
+    }
 }
