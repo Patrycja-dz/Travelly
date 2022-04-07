@@ -97,6 +97,11 @@ h5 {
     border: none;
     font-size: 1.8;
     cursor: pointer;
+    transition: background 0.5s ease-in-out;
+}
+
+.hero__contactBtn:hover {
+    background: #27394e;
 }
 
 .locations {
@@ -107,6 +112,7 @@ h5 {
     display: flex;
     align-items: center;
     position: relative;
+    overflow: hidden;
 }
 
 .locations__header {
@@ -128,19 +134,35 @@ h5 {
     -webkit-background-clip: text;
     color: transparent;
 }
-.cloud{
+
+.cloud {
     position: absolute;
     top: 0%;
     right: 0%;
 }
-.moving-cloud1{
 
+.moving-cloud1 {
+    animation: cloudAnimation  3s infinite alternate ease-in-out;
 }
-.moving-cloud2{
+
+.moving-cloud2 {
     top: 20%;
     z-index: -1;
     opacity: 0.5;
+    animation: cloudAnimation  3.5s infinite alternate ease-in-out;
 }
+
+
+@keyframes cloudAnimation {
+    from {
+        transform: translate(10%, -10%);
+    }
+
+    to {
+        transform: translate(0%, 0%);
+    }
+}
+
 .benefits__text {
     background: #343c44;
     padding: 3rem;
@@ -202,5 +224,25 @@ h5 {
 
     .menu__logo {
         padding: 2rem;
+    }
+    .locations__header h2{
+        text-align: center;
+    }
+    .locations__header h3{
+        background: rgb(52, 60, 68, 0.5);
+        -webkit-text-fill-color: #fff;
+        text-align: center;
+        line-height: 2rem;
+    }
+    .cloud{
+        height: 40rem;
+        pointer-events: none;
+    }
+    .moving-cloud1{
+        z-index: -1;
+    }
+    .moving-cloud2{
+        z-index: -2;
+        top: 15rem;
     }
 }
