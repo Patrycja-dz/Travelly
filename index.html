@@ -37,10 +37,10 @@
         <h3 class="hero__subheading">Start your travel at an affordable price with Travelly <br>Contact us now
             bellow.
         </h3>
-        <button class="hero__contactBtn">Book now</button>
+        <button class="button">Book now</button>
     </section>
     <!--here will be locations section-->
-    <section class="locations">
+    <section class="locations" id="locations">
         <header class="locations__header">
             <h2>The perfect Travelling Experience.</h2>
             <h3>We cover everything from picking the perfect hotel,<br>flight and travelling destination</h3>
@@ -57,27 +57,61 @@
         <div class="benefits__cards">
             <div class="card">
                 <div class="card__icon">
-                    <img src="/Travelly/icons/route-solid.svg" alt="">
+                    <img src="icons/route-solid.svg" alt="">
                 </div>
                 <h4>Travel</h4>
                 <p>Travel in 250 countries with no effort.</p>
             </div>
             <div class="card">
                 <div class="card__icon">
-                    <img src="/Travelly/icons/bed-solid.svg" alt="">
+                    <img src="icons/bed-solid.svg" alt="">
                 </div>
                 <h4>Hotels</h4>
                 <p>Hotels located near popular areas.</p>
             </div>
             <div class="card">
                 <div class="card__icon">
-                    <img src="/Travelly/icons/plane-departure-solid.svg" alt="">
+                    <img src="icons/plane-departure-solid.svg" alt="">
                 </div>
                 <h4>Fly</h4>
                 <p>Flight included in every purchased trip.</p>
             </div>
         </div>
     </section>
+    <section class="contact" id="contact">
+        <div class="form__wrapper">
+            <header class="form__header">
+                <h2>Contact Us</h2>
+            </header>
+            <form>
+                <div class="name__form">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="email__form">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
+                </div>
+                <button class="button" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__wrapper">
+            <h5>Travelly &copy;</h5>
+            <ul>
+                <li>
+                    <a href="#"><img src="/icons/twitter.svg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="/icons/youtube.svg" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="/icons/instagram.svg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
