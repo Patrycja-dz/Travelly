@@ -83,7 +83,7 @@ h5 {
 
 .hero {
     min-height: 90vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), transparent), url("/img/landing-page.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), transparent), url("https://i.postimg.cc/jq9Z2T6W/landing-page.jpg");
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -110,7 +110,7 @@ h5 {
 
 .locations {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), transparent), url("/img/new-york-page.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), transparent), url("https://i.postimg.cc/G2KVV56F/new-york-page.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -219,7 +219,7 @@ h5 {
 
 .contact {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), transparent), url("img/contact-mountain.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), transparent), url("https://i.postimg.cc/KvBwy4Xc/contact-mountain.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
